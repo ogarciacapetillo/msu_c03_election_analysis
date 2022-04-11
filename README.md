@@ -30,16 +30,24 @@ The analysis of the election show that:
 ## Challenge Overview
 Additional requirements to present the following 
 
-1. The voter turnout for each county 
+1. The voter turnout for each county and 
 2. The percentage of votes from each county out of the total count
 3. The county with the higest turnout
+
 
 ## Election-audit results
 
 - How many votes were cast in this congressional election?
+
+![TotalVotesElection](/Resources/Total_votes_election.png)
+
 - Votes by County and respective percentage
+
+![VoterByCounty](/Resources/County_votes.png)
+
 - County with highest turnout
 
+![CountyHighestTurnout](/Resources/Largest_county_turnout.png)
 
 ## Challenge Summary
 
