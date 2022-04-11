@@ -17,17 +17,37 @@ A Colorado Board of Election employee has given you the following tasks to compl
 The analysis of the election show that:
 - There were "x" votes cast in the election.
 - The candidates were:
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
+    - Candidate 1 - Charles Casper Stockham
+    - Candidate 2 - Diana DeGette
+    - Candidate 3 - Raymon Anthony Doane
 - The candidate results were"
-    - Candidate 1 received "x%" of the vote and "y" number of votes.  
-    - Candidate 2 received "x%" of the vote and "y" number of votes.
-    - Candidate 3 received "x%" of the vote and "y" number of votes.
+    - Candidate Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.  
+    - Candidate Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
+    - Candidate Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
 - The winner of the election was:
-    - Candidate (1, 2, or 3), who received "x%" of the vote "y" number of votes.
+    - Candidate 2 - Dianna DeGette, who received "73.8%" of the vote "272,892" number of votes.
 
-## Challenge Overiew
+## Challenge Overview
+Additional requirements to present the following 
+
+1. The voter turnout for each county 
+2. The percentage of votes from each county out of the total count
+3. The county with the higest turnout
+
+## Election-audit results
+
+- How many votes were cast in this congressional election?
+- Votes by County and respective percentage
+- County with highest turnout
+
 
 ## Challenge Summary
 
+This script analysis can be easily leverage to other congressional election commission, in order to adapt the script for other elections
+would be sufficient to update the column index with the respective information if the columns are in different order to the respective file
+
+Current columns order:
+
+| Ballout Id | County | Candidate |
+
+* Arrange columns in script respectively to the columns on the source file
